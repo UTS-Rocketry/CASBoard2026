@@ -1137,421 +1137,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "custom symbols:MOLEX_26013114"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN?"
-				(at 7.112 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MOLEX_26013114"
-				(at 16.256 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "custom footprints:MOLEX 26013114"
-				(at 22.606 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "26013114"
-				(at 10.16 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "MOLEX"
-				(at 8.382 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C17644051"
-				(at 10.668 0.762 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MOLEX_26013114_0_0"
-				(rectangle
-					(start 0 5.08)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 3.81)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "custom symbols:XY-B3B-XH-A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN?"
-				(at 4.826 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "XY-B3B-XH-A"
-				(at 10.16 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "XY-B3B-XH-A"
-				(at 10.16 -3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "XYECONN(辛译)"
-				(at 10.16 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C51940188"
-				(at 8.382 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "XY-B3B-XH-A_0_0"
-				(rectangle
-					(start -2.54 5.08)
-					(end 2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 3.81)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1778,131 +1363,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 179.07 127)
@@ -1919,14 +1379,6 @@
 	(no_connect
 		(at 189.23 93.98)
 		(uuid "7a9cbafe-2cf0-4f54-9b8d-4038c863cd15")
-	)
-	(no_connect
-		(at 104.14 111.76)
-		(uuid "d56b6deb-f243-41d7-a86e-4b5215b49252")
-	)
-	(no_connect
-		(at 104.14 106.68)
-		(uuid "d99502ee-fada-4e5d-ad3d-18b6b63f7a19")
 	)
 	(wire
 		(pts
@@ -2298,25 +1750,15 @@
 		)
 		(uuid "fa3cbf0c-deaf-49dd-ad0e-449ea3399cb1")
 	)
-	(label "CANL"
-		(at 247.65 45.72 180)
+	(label "3.3V"
+		(at 189.23 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1bccbe3f-664c-4ad7-9c73-4d8142d22338")
-	)
-	(label "CANH"
-		(at 247.65 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1fcb213f-8ab0-4a5d-ae12-fc6384f12dfe")
+		(uuid "2a7247a1-61cf-43ac-b31c-8b74da0a79e1")
 	)
 	(label "CANL"
 		(at 153.67 82.55 0)
@@ -2328,15 +1770,25 @@
 		)
 		(uuid "3c8130db-e381-4f03-b132-c3be6cfbec8b")
 	)
-	(label "CANH"
-		(at 247.65 43.18 180)
+	(label "3.3V"
+		(at 189.23 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "453869ed-4f19-41bb-903e-cc30a5e45a45")
+		(uuid "736d8a2f-2cb9-46ee-8bd0-2c9b2bf655f4")
+	)
+	(label "3.3V"
+		(at 189.23 83.82 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "736f4caa-1b5b-4ad0-bb0f-d821646d20d3")
 	)
 	(label "CANH"
 		(at 153.67 87.63 0)
@@ -2347,16 +1799,6 @@
 			(justify left bottom)
 		)
 		(uuid "c3b6ad7d-85ef-4d5b-bbfb-e29f26927452")
-	)
-	(label "CANL"
-		(at 247.65 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb103b11-a915-4127-a9a0-383718fff082")
 	)
 	(global_label "CAN_R"
 		(shape input)
@@ -2371,50 +1813,6 @@
 		(uuid "0c9ab7ff-9751-4ca7-9f8c-1a0ce13cfa2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 106.6581 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Servo_VCC"
-		(shape input)
-		(at 196.85 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "164d3cb5-ea16-41df-ad8b-065679b5cc26")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.0677 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Servo_Signal"
-		(shape input)
-		(at 196.85 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "59ce6ca0-4815-4012-b3bd-3867de74ec93")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.7698 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "036aa351-cabf-423a-8bf0-98bae5349eb7")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -2729,12 +2127,6 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2762,7 +2154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 208.28 35.56 0)
 			(effects
 				(font
@@ -2900,103 +2292,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom symbols:MOLEX_26013114")
-		(at 250.19 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28a7e5e7-d9f4-493d-b35b-dfc07f7eaa15")
-		(property "Reference" "CN8"
-			(at 256.54 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOLEX_CAN_OUT"
-			(at 256.54 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom footprints:MOLEX 26013114"
-			(at 272.796 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "26013114"
-			(at 260.35 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MOLEX"
-			(at 258.572 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C17644051"
-			(at 260.858 44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0fbd95e5-ff2c-4f47-ab21-d33d3b2afe95")
-		)
-		(pin "1"
-			(uuid "33d0d11b-ff77-40a5-b2d6-ead70e973cf5")
-		)
-		(instances
-			(project "CAN-Interface-Board"
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "CN8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 170.18 135.89 90)
 		(unit 1)
@@ -3083,7 +2378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "348efb03-a0af-4b5e-b65d-c2277743f32d")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR"
 			(at 226.06 33.02 0)
 			(effects
 				(font
@@ -3138,12 +2433,6 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3174,7 +2463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 182.88 29.21 0)
 			(effects
 				(font
@@ -3288,207 +2577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 189.23 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "443363b9-67a6-444b-af76-e49fe83ef1f7")
-		(property "Reference" "#PWR018"
-			(at 193.04 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 185.42 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 189.23 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fd9786a-4f06-4dd2-bde6-9c40bf9c6c06")
-		)
-		(instances
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 247.65 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a06a68a-c11d-4c34-949d-39daa93c95c8")
-		(property "Reference" "#PWR020"
-			(at 241.3 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2348a6f9-54bb-4d2c-9bc8-0ca5257b4845")
-		)
-		(instances
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 247.65 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b907772-2977-4b62-a3e0-c0aa1c03b407")
-		(property "Reference" "#PWR021"
-			(at 251.46 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 243.84 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 247.65 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3adfb929-0093-477c-bcf3-f7859a4d5cc6")
-		)
-		(instances
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "custom symbols:JST B2B-XH-A(LF)(SN)")
 		(at 195.58 134.62 0)
 		(unit 1)
@@ -3593,73 +2681,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 189.23 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "603f8352-3a4c-4afe-94a4-0f1661662be1")
-		(property "Reference" "#PWR017"
-			(at 193.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 185.42 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 189.23 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7c6577c-2bf8-413e-88c6-429b6d11d36a")
-		)
-		(instances
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 172.72 25.4 270)
 		(unit 1)
@@ -3668,7 +2689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72d7761c-eef0-48bf-b242-cf5a9b35e967")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR"
 			(at 166.37 25.4 0)
 			(effects
 				(font
@@ -3723,12 +2744,6 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3740,7 +2755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7acd8eed-ad97-4ebe-9c3c-982d75eb892e")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR"
 			(at 166.37 31.75 0)
 			(effects
 				(font
@@ -3792,12 +2807,6 @@
 			(project "cameraBoardSchematic"
 				(path "/65068a32-f105-4204-b50e-234054c5a6d0/480e1df8-14aa-40df-bf4b-17bab0b9775f"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -3870,106 +2879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom symbols:XY-B3B-XH-A")
-		(at 201.93 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86d11388-a511-4d73-acb2-cefcf7104b19")
-		(property "Reference" "CN5"
-			(at 205.74 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XY-B3B-XH-A"
-			(at 205.74 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom footprints:CONN-TH_3P-P2.50_A2501WV2-3P"
-			(at 201.93 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "XY-B3B-XH-A"
-			(at 212.09 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XYECONN(辛译)"
-			(at 212.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C51940188"
-			(at 210.312 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9828d186-341f-47d0-bee0-4ae657993de4")
-		)
-		(pin "1"
-			(uuid "4adac0a7-c1f4-40b7-add5-d078d9975eb2")
-		)
-		(pin "2"
-			(uuid "a1eaab2e-4b46-487c-9440-7a6b3c8b182c")
-		)
-		(instances
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "CN5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 218.44 25.4 270)
 		(unit 1)
@@ -3978,7 +2887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93900054-e974-4000-ae16-ddc27661e87c")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR"
 			(at 214.63 25.4 0)
 			(effects
 				(font
@@ -4029,12 +2938,6 @@
 			(project ""
 				(path "/65068a32-f105-4204-b50e-234054c5a6d0/480e1df8-14aa-40df-bf4b-17bab0b9775f"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -4120,200 +3023,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom symbols:MOLEX_26013114")
-		(at 250.19 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99843370-309d-4ebc-b36a-f9f417c2fe4e")
-		(property "Reference" "CN6"
-			(at 256.54 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOLEX_26013114"
-			(at 256.54 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom footprints:MOLEX 26013114"
-			(at 272.796 29.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "26013114"
-			(at 260.35 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MOLEX"
-			(at 258.572 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C17644051"
-			(at 260.858 25.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b2992cb0-2788-43ca-bc1d-2a16d80afecc")
-		)
-		(pin "1"
-			(uuid "aba935d5-d656-4453-8e89-42f2040fef06")
-		)
-		(instances
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "CN6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom symbols:MOLEX_26013114")
-		(at 250.19 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0675ff0-8415-42c4-9600-9659ea15cb21")
-		(property "Reference" "CN7"
-			(at 256.54 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOLEX_CAN_IN"
-			(at 256.54 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "custom footprints:MOLEX 26013114"
-			(at 272.796 39.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "26013114"
-			(at 260.35 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MOLEX"
-			(at 258.572 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C17644051"
-			(at 260.858 36.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1431533-55ec-4f05-b669-d3feb4d9f3e1")
-		)
-		(pin "1"
-			(uuid "610a30d7-7a01-4191-a0bf-e013e36545b8")
-		)
-		(instances
-			(project "CAN-Interface-Board"
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "CN7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 208.28 25.4 180)
 		(unit 1)
@@ -4340,7 +3049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 208.28 25.4 0)
 			(effects
 				(font
@@ -4546,79 +3255,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b608bb26-63a6-46da-9da0-581f97dea5d4")
+			(uuid "b608bb26-63a6-46da-9da0-581f97dea5d3")
 		)
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 189.23 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3b5b2b6-8c53-4d9c-b031-563dfeb43af7")
-		(property "Reference" "#PWR016"
-			(at 193.04 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 185.42 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 189.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62abd76d-f96a-4603-b2b2-e9bd34d2bdde")
-		)
-		(instances
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4633,7 +3275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c434db49-b384-4e52-9752-c5ddfec42aa3")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR"
 			(at 224.79 22.86 0)
 			(effects
 				(font
@@ -4685,79 +3327,6 @@
 			(project "cameraBoardSchematic"
 				(path "/65068a32-f105-4204-b50e-234054c5a6d0/480e1df8-14aa-40df-bf4b-17bab0b9775f"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 196.85 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d50c19e1-fd4a-4f2c-83c9-5c7d8d89de54")
-		(property "Reference" "#PWR015"
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 106.6799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97a30177-9d45-4879-8b65-94b529b27a66")
-		)
-		(instances
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4857,7 +3426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 182.88 22.86 0)
 			(effects
 				(font

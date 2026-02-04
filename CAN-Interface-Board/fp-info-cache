@@ -1,4 +1,4 @@
-26717148059560494
+26729529611730853
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106344,12 +106344,61 @@ Varistor VF
 2
 2
 custom footprints
+CONN-TH_3P-P2.50_A2501WV2-3P
+
+
+0
+3
+3
+custom footprints
+CONN-TH_S05B-PASK-2-LF-SN
+
+
+0
+5
+5
+custom footprints
+HDR-TH_2P-P2.54-H-W8.7_A2541HWR-2P
+
+
+0
+2
+2
+custom footprints
 JST B2B-XH-A(LF)(SN)
 
 
 0
 2
 2
+custom footprints
+MOLEX 26013114
+
+
+0
+2
+2
+custom footprints
+MOLEX 26013115
+
+
+0
+4
+4
+custom footprints
+MOLEX 436500225
+
+
+0
+4
+4
+custom footprints
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
+
+
+0
+6
+6
 custom footprints
 Untitled
 
