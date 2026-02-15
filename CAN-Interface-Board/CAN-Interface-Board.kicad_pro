@@ -645,6 +645,22 @@
     [
       "f33094e5-7720-4bb5-9ddf-b2cfd7a85122",
       "USB Type C"
+    ],
+    [
+      "90a33a35-ba22-452a-8971-c9b1cdf9eace",
+      "FlashSD"
+    ],
+    [
+      "a39ea6c8-c4df-4a74-9922-1f41a5f54a02",
+      "Barometer"
+    ],
+    [
+      "1f19c348-3e5c-4d1e-af85-8b7105ca4f8b",
+      "IMU"
+    ],
+    [
+      "ba99ee47-4596-44a2-b347-5d1ba8b4fdfe",
+      "Accelerometer"
     ]
   ],
   "text_variables": {}
