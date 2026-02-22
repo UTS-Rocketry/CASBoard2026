@@ -657,10 +657,6 @@
     [
       "1f19c348-3e5c-4d1e-af85-8b7105ca4f8b",
       "IMU"
-    ],
-    [
-      "ba99ee47-4596-44a2-b347-5d1ba8b4fdfe",
-      "Accelerometer"
     ]
   ],
   "text_variables": {}
