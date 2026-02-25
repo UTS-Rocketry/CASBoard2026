@@ -502,6 +502,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "XY-B3B-XH-A_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN3"
+				(at 3.81 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "XY-B3B-XH-A"
+				(at 3.81 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "myFootprints:JST_B3B-XH-A"
+				(at 1.27 -9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XYECONN(辛译)"
+				(at 17.018 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C51940188"
+				(at 17.018 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C51940188"
+				(at -0.254 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XY-B3B-XH-A_1_0_0"
+				(rectangle
+					(start -2.54 5.08)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 3.81)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "XY-B3B-XH-A_1_1_0"
+				(pin power_out line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "custom symbols:JST B2B-XH-A(LF)(SN)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1109,7 +1267,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 53.34) (xy 213.36 53.34)
+			(xy 196.85 53.34) (xy 215.9 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1329,6 +1487,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 50.8) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff3eaac-b174-47d4-be4d-9369d8861126")
+	)
+	(wire
+		(pts
 			(xy 172.72 58.42) (xy 160.02 58.42)
 		)
 		(stroke
@@ -1336,6 +1504,16 @@
 			(type default)
 		)
 		(uuid "a4c9b4bf-17ef-46f7-902a-11af5841e12e")
+	)
+	(wire
+		(pts
+			(xy 215.9 55.88) (xy 213.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88fa69d-8ba0-47e3-bf9b-f9946dbc8946")
 	)
 	(wire
 		(pts
@@ -1845,7 +2023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom footprints:JST B2B-XH-A(LF)(SN)"
+		(property "Footprint" "myFootprints:JST_B2B-XH-A_LF__SN_"
 			(at 106.68 96.52 0)
 			(effects
 				(font
@@ -1915,8 +2093,9 @@
 		)
 	)
 	(symbol
+		(lib_name "XY-B3B-XH-A_1")
 		(lib_id "custom symbols:XY-B3B-XH-A")
-		(at 218.44 53.34 0)
+		(at 220.98 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1925,7 +2104,7 @@
 		(fields_autoplaced yes)
 		(uuid "845e3872-2139-408f-80c4-c996e2f38853")
 		(property "Reference" "CN3"
-			(at 222.25 52.0699 0)
+			(at 224.79 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +2113,7 @@
 			)
 		)
 		(property "Value" "XY-B3B-XH-A"
-			(at 222.25 54.6099 0)
+			(at 224.79 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,8 +2121,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom footprints:CONN-TH_3P-P2.50_A2501WV2-3P"
-			(at 218.44 53.34 0)
+		(property "Footprint" "myFootprints:JST_B3B-XH-A"
+			(at 222.25 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +2131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 53.34 0)
+			(at 220.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 53.34 0)
+			(at 220.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +2149,7 @@
 			)
 		)
 		(property "Manufacturer" "XYECONN(辛译)"
-			(at 228.6 53.34 0)
+			(at 237.998 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +2158,7 @@
 			)
 		)
 		(property "LCSC Part" "C51940188"
-			(at 226.822 51.562 0)
+			(at 237.998 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +2167,7 @@
 			)
 		)
 		(property "LCSC" "C51940188"
-			(at 218.44 53.34 0)
+			(at 220.726 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom footprints:JST B2B-XH-A(LF)(SN)"
+		(property "Footprint" "myFootprints:JST_B2B-XH-A_LF__SN_"
 			(at 177.8 95.25 0)
 			(effects
 				(font
@@ -2830,7 +3009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom footprints:CONN-TH_3P-P2.50_A2501WV2-3P"
+		(property "Footprint" "myFootprints:JST_B3B-XH-A"
 			(at 218.44 67.31 0)
 			(effects
 				(font
