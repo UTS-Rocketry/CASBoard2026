@@ -841,16 +841,16 @@
 		(uuid "4ba5695c-4795-4d49-9310-f1a14064aac0")
 	)
 	(junction
+		(at 139.7 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51962360-b13f-48bb-9abc-cd84f6348c50")
+	)
+	(junction
 		(at 125.73 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e94c928-c052-46d4-8222-a010ecb0b49d")
-	)
-	(junction
-		(at 139.7 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ce8417b-14d1-4407-9c4d-5118536ca623")
 	)
 	(junction
 		(at 137.16 123.19)
@@ -922,6 +922,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 76.2) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbb3d68-8ede-4d05-ba10-782095430b04")
+	)
+	(wire
+		(pts
 			(xy 115.57 113.03) (xy 125.73 113.03)
 		)
 		(stroke
@@ -952,17 +962,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 139.7 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71597db4-5dee-47e9-af7b-63ee0fa2271a")
-	)
-	(wire
-		(pts
-			(xy 139.7 82.55) (xy 139.7 97.79)
+			(xy 139.7 73.66) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -979,6 +979,16 @@
 			(type default)
 		)
 		(uuid "79377487-ac27-445e-a899-890ed988a158")
+	)
+	(wire
+		(pts
+			(xy 151.13 76.2) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822794ae-759f-4046-a2e4-17307e382184")
 	)
 	(wire
 		(pts
@@ -1032,23 +1042,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 73.66) (xy 139.7 74.93)
+			(xy 139.7 63.5) (xy 139.7 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e75eb6a5-36e0-4341-9437-abb02a67c3a4")
-	)
-	(wire
-		(pts
-			(xy 139.7 72.39) (xy 139.7 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e93ff64b-5a71-4c5c-866d-60025fa4f8f0")
 	)
 	(hierarchical_label "IMU_SCK"
 		(shape input)
@@ -1063,7 +1063,7 @@
 	)
 	(hierarchical_label "IMU_CS"
 		(shape input)
-		(at 154.94 73.66 0)
+		(at 151.13 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1373,7 +1373,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 139.7 72.39 90)
+		(at 139.7 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1382,7 +1382,7 @@
 		(fields_autoplaced yes)
 		(uuid "898bc2df-f3ed-4430-9151-42367aa2f0a3")
 		(property "Reference" "#PWR073"
-			(at 143.51 72.39 0)
+			(at 143.51 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,7 +1391,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 135.89 72.3899 90)
+			(at 135.89 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 72.39 0)
+			(at 139.7 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 72.39 0)
+			(at 139.7 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 139.7 72.39 0)
+			(at 139.7 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1739,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 78.74 0)
+		(at 139.7 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1748,7 +1748,7 @@
 		(fields_autoplaced yes)
 		(uuid "efc764f7-c885-4e23-a509-82bebe7634dc")
 		(property "Reference" "R10"
-			(at 142.24 77.4699 0)
+			(at 142.24 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1757,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 142.24 80.0099 0)
+			(at 142.24 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,7 +1766,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 137.922 78.74 90)
+			(at 137.922 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 78.74 0)
+			(at 139.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +1784,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 78.74 0)
+			(at 139.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1793,7 @@
 			)
 		)
 		(property "LCSC" "C84376"
-			(at 139.7 78.74 0)
+			(at 139.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)

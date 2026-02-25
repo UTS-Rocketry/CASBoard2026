@@ -57,16 +57,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 127) (xy 181.61 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16c79fe6-c426-4b45-b7f1-5ba18f1cfc32")
-	)
-	(wire
-		(pts
 			(xy 170.18 91.44) (xy 181.61 91.44)
 		)
 		(stroke
@@ -127,16 +117,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 132.08) (xy 181.61 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "606de4ee-29af-490d-81dd-5064013de219")
-	)
-	(wire
-		(pts
 			(xy 127 67.31) (xy 134.62 67.31)
 		)
 		(stroke
@@ -164,6 +144,16 @@
 			(type default)
 		)
 		(uuid "a1cb3a71-c020-404e-b2c8-adbd2df52789")
+	)
+	(wire
+		(pts
+			(xy 170.18 129.54) (xy 181.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4aa2d00-1a99-46c9-b136-db6f262f4c83")
 	)
 	(wire
 		(pts
@@ -207,6 +197,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 127) (xy 181.61 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8062d9e-c947-4ba0-a114-7e4ea112627a")
+	)
+	(wire
+		(pts
+			(xy 170.18 132.08) (xy 181.61 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd4fb09-f1da-4941-b96f-68de27e2e075")
+	)
+	(wire
+		(pts
 			(xy 128.27 97.79) (xy 134.62 97.79)
 		)
 		(stroke
@@ -224,16 +234,6 @@
 			(type default)
 		)
 		(uuid "f42ed53c-4e63-4526-b3ce-67afef221c01")
-	)
-	(wire
-		(pts
-			(xy 170.18 129.54) (xy 181.61 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f54ada57-d12f-4424-9ab1-7a2c2e73e533")
 	)
 	(wire
 		(pts
@@ -992,7 +992,7 @@
 			)
 		)
 		(pin "D-" input
-			(at 181.61 132.08 180)
+			(at 181.61 129.54 180)
 			(uuid "440ac64d-d7b9-4ebd-b694-ffc37a454d4b")
 			(effects
 				(font
@@ -1002,7 +1002,7 @@
 			)
 		)
 		(pin "VBUS" input
-			(at 181.61 129.54 180)
+			(at 181.61 127 180)
 			(uuid "52bec2ab-f692-443c-847f-ce370f59f6f6")
 			(effects
 				(font
@@ -1012,7 +1012,7 @@
 			)
 		)
 		(pin "D+" input
-			(at 181.61 127 180)
+			(at 181.61 132.08 180)
 			(uuid "daa3666b-e63f-409d-b3ca-83030fd0ce1c")
 			(effects
 				(font
