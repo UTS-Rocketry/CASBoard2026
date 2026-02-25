@@ -5,455 +5,6 @@
 	(uuid "bdaafde4-2d05-4325-bf32-c15ae3245196")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Microsemi_FlashPro-JTAG-10"
 			(pin_names
 				(offset 1.016)
@@ -4060,12 +3611,6 @@
 		(uuid "4200a2d0-b80c-4292-b7b8-e24717d6d4b6")
 	)
 	(junction
-		(at 260.35 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50ca3f4a-7d7e-41b9-9a56-a8290503ccfd")
-	)
-	(junction
 		(at 168.91 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4088,12 +3633,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "709d7ed4-604d-49fd-b6aa-752f61e4b73c")
-	)
-	(junction
-		(at 260.35 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c330ccb-f576-4ea1-bbd5-30e18819ec91")
 	)
 	(junction
 		(at 184.15 63.5)
@@ -4176,20 +3715,16 @@
 		(uuid "152729f2-0aba-4100-a7a1-e8f9ef9dd5c9")
 	)
 	(no_connect
-		(at 132.08 106.68)
-		(uuid "274b1d7b-0076-4a99-a282-28332c113e92")
-	)
-	(no_connect
 		(at 132.08 116.84)
 		(uuid "27593ea4-d0de-4496-9267-cf781edae6d5")
 	)
 	(no_connect
-		(at 132.08 104.14)
-		(uuid "287e9d59-684e-402b-aa61-726f17af6295")
-	)
-	(no_connect
 		(at 38.1 81.28)
 		(uuid "2e4e91c5-4431-4465-89b6-1d82660a2dc4")
+	)
+	(no_connect
+		(at 132.08 93.98)
+		(uuid "31b21453-ebd9-4d24-a945-f2cc8e6def02")
 	)
 	(no_connect
 		(at 132.08 119.38)
@@ -4220,6 +3755,10 @@
 		(uuid "53af1f44-98b1-4874-9c1b-f6db958905a6")
 	)
 	(no_connect
+		(at 132.08 129.54)
+		(uuid "5b1c4685-8129-4580-89be-d91bf112ffb9")
+	)
+	(no_connect
 		(at 172.72 101.6)
 		(uuid "5b2483a5-1b74-49e9-8454-eae48eb4ae92")
 	)
@@ -4236,20 +3775,8 @@
 		(uuid "705a3748-f70f-425a-b074-32d170471cb9")
 	)
 	(no_connect
-		(at 172.72 134.62)
-		(uuid "7e202588-748a-4390-be80-20e7e2a94092")
-	)
-	(no_connect
 		(at 132.08 111.76)
 		(uuid "81b23424-8087-419c-bc82-68625306330c")
-	)
-	(no_connect
-		(at 172.72 91.44)
-		(uuid "897be93d-bbdf-4480-8e7d-4d2a133d0ece")
-	)
-	(no_connect
-		(at 132.08 86.36)
-		(uuid "8db946b7-095f-43ff-9070-a63b28f1f759")
 	)
 	(no_connect
 		(at 38.1 132.08)
@@ -4258,6 +3785,10 @@
 	(no_connect
 		(at 255.27 60.96)
 		(uuid "98e665cb-96a5-4d1a-bc99-4830651a62ce")
+	)
+	(no_connect
+		(at 172.72 78.74)
+		(uuid "a7641bc5-b0f3-4b7a-8212-3f7d70d66627")
 	)
 	(no_connect
 		(at 172.72 157.48)
@@ -4270,10 +3801,6 @@
 	(no_connect
 		(at 132.08 137.16)
 		(uuid "c0b17a52-f432-4731-8930-d17df3c61c15")
-	)
-	(no_connect
-		(at 132.08 88.9)
-		(uuid "c8f5791d-d203-4b48-a156-ab88e7105d46")
 	)
 	(no_connect
 		(at 255.27 66.04)
@@ -4296,24 +3823,12 @@
 		(uuid "df9d31f1-5109-489a-9aab-a5dd0e1decad")
 	)
 	(no_connect
-		(at 172.72 137.16)
-		(uuid "e0ab10bc-a7f6-4e9d-83fb-06242485663a")
-	)
-	(no_connect
-		(at 172.72 132.08)
-		(uuid "e13792cc-1219-41ac-b00d-6243cc9d6e9a")
-	)
-	(no_connect
 		(at 172.72 114.3)
 		(uuid "eed44f0d-21c4-4391-a5ae-06b46142eca3")
 	)
 	(no_connect
-		(at 172.72 86.36)
-		(uuid "f84a8070-aecc-4322-b761-d47bc799df78")
-	)
-	(no_connect
-		(at 172.72 144.78)
-		(uuid "fd683c1e-fd26-4804-af0d-c5911a0ef5a1")
+		(at 172.72 76.2)
+		(uuid "efc0686b-f4c6-409c-9a69-b9b392539b8d")
 	)
 	(wire
 		(pts
@@ -4347,7 +3862,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 109.22) (xy 172.72 109.22)
+			(xy 182.88 109.22) (xy 172.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4364,6 +3879,26 @@
 			(type default)
 		)
 		(uuid "0b269bde-b939-470a-b013-5023150a01bf")
+	)
+	(wire
+		(pts
+			(xy 128.27 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6b3fd2-6a80-4d5b-94e0-35b908671bf6")
+	)
+	(wire
+		(pts
+			(xy 177.8 137.16) (xy 172.72 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d556047-88e4-421c-83f1-defe0fb1610b")
 	)
 	(wire
 		(pts
@@ -4397,6 +3932,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 119.38) (xy 172.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17188f5a-c668-4da3-a51d-87b10170ce1b")
+	)
+	(wire
+		(pts
 			(xy 27.94 124.46) (xy 29.21 124.46)
 		)
 		(stroke
@@ -4404,16 +3949,6 @@
 			(type default)
 		)
 		(uuid "199e49bd-95ee-4c46-b01d-981d66128f30")
-	)
-	(wire
-		(pts
-			(xy 260.35 134.62) (xy 260.35 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f20b74c-5cf4-4be2-b1c6-c11f2d76b765")
 	)
 	(wire
 		(pts
@@ -4487,6 +4022,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 104.14) (xy 132.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3243d5f0-2331-407d-b295-5873faddc3bc")
+	)
+	(wire
+		(pts
 			(xy 160.02 55.88) (xy 160.02 68.58)
 		)
 		(stroke
@@ -4517,13 +4062,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 76.2) (xy 172.72 76.2)
+			(xy 176.53 86.36) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d9ba3e6-c22d-4200-a4c8-7b6fdc566768")
+		(uuid "39e13d04-bb9c-4a47-82d3-a30495e483a1")
 	)
 	(wire
 		(pts
@@ -4534,6 +4079,36 @@
 			(type default)
 		)
 		(uuid "41da7928-dc81-4d9b-a63e-96fea354c213")
+	)
+	(wire
+		(pts
+			(xy 172.72 91.44) (xy 176.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430f88cf-458e-45b9-9ff1-c26176c17019")
+	)
+	(wire
+		(pts
+			(xy 177.8 132.08) (xy 172.72 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4342471d-977f-470e-b386-b25651779b75")
+	)
+	(wire
+		(pts
+			(xy 123.19 106.68) (xy 132.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44242516-b61d-44e4-a31e-fcb8ba47ea2e")
 	)
 	(wire
 		(pts
@@ -4574,6 +4149,16 @@
 			(type default)
 		)
 		(uuid "582e3ae6-5c24-44c2-8108-58c9edc380b5")
+	)
+	(wire
+		(pts
+			(xy 176.53 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a581498-1b74-4e54-8d7c-7716ed8ef318")
 	)
 	(wire
 		(pts
@@ -4687,7 +4272,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 111.76) (xy 172.72 111.76)
+			(xy 182.88 111.76) (xy 172.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4727,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 106.68) (xy 176.53 106.68)
+			(xy 172.72 106.68) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4744,6 +4329,16 @@
 			(type default)
 		)
 		(uuid "7a20a1d7-67e7-497e-b5dd-e8aac76e7624")
+	)
+	(wire
+		(pts
+			(xy 177.8 129.54) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0ede53-4774-4e59-a883-d939a06763af")
 	)
 	(wire
 		(pts
@@ -4767,7 +4362,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 149.86) (xy 181.61 149.86)
+			(xy 177.8 144.78) (xy 172.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7aec27-2c15-4cb7-8468-b99c6424365a")
+	)
+	(wire
+		(pts
+			(xy 172.72 149.86) (xy 177.8 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4807,13 +4412,33 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 104.14) (xy 176.53 104.14)
+			(xy 172.72 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "859bc1e5-3905-4bc5-b33e-ab13c8df93b8")
+	)
+	(wire
+		(pts
+			(xy 177.8 121.92) (xy 172.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c2a664-ee50-4ec2-8122-4f05a7e4cb3e")
+	)
+	(wire
+		(pts
+			(xy 177.8 124.46) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8651f88f-9d25-46cf-9c8d-786b002d5d38")
 	)
 	(wire
 		(pts
@@ -4837,16 +4462,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 130.81) (xy 262.89 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d2e6433-ca66-4adf-8389-a6dd46461e12")
-	)
-	(wire
-		(pts
 			(xy 29.21 124.46) (xy 45.72 124.46)
 		)
 		(stroke
@@ -4867,7 +4482,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 172.72 83.82)
+			(xy 176.53 83.82) (xy 172.72 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4884,6 +4499,16 @@
 			(type default)
 		)
 		(uuid "92cfb84c-406a-4f24-8b66-3efa05bc638b")
+	)
+	(wire
+		(pts
+			(xy 177.8 127) (xy 172.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9555f998-d070-4f2f-866d-0aa1f67f6d58")
 	)
 	(wire
 		(pts
@@ -4937,16 +4562,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 128.27) (xy 260.35 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "971dcca5-90a7-4092-bed7-033923829c8f")
-	)
-	(wire
-		(pts
 			(xy 160.02 55.88) (xy 168.91 55.88)
 		)
 		(stroke
@@ -4987,7 +4602,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 152.4) (xy 181.61 152.4)
+			(xy 172.72 152.4) (xy 177.8 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5037,16 +4652,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 133.35) (xy 260.35 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb228ef-86ff-44ef-ac44-4a0b1b56d771")
-	)
-	(wire
-		(pts
 			(xy 29.21 139.7) (xy 45.72 139.7)
 		)
 		(stroke
@@ -5067,26 +4672,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 78.74) (xy 172.72 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6fa6b21-7d6c-431a-b3af-7da5b53b3b84")
-	)
-	(wire
-		(pts
-			(xy 260.35 133.35) (xy 260.35 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9c8d6e9-ffeb-4c41-b9fc-49c6a447a9c4")
-	)
-	(wire
-		(pts
 			(xy 152.4 165.1) (xy 152.4 170.18)
 		)
 		(stroke
@@ -5097,6 +4682,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 134.62) (xy 172.72 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee71a11-1a9d-462f-b143-2e834fe4d32e")
+	)
+	(wire
+		(pts
 			(xy 142.24 22.86) (xy 144.78 22.86)
 		)
 		(stroke
@@ -5104,16 +4699,6 @@
 			(type default)
 		)
 		(uuid "c1c0545b-09e0-4c35-a8b3-4875752f3d25")
-	)
-	(wire
-		(pts
-			(xy 260.35 128.27) (xy 260.35 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6d419dc-c97d-4b45-b7a6-f1a0586963ff")
 	)
 	(wire
 		(pts
@@ -5177,7 +4762,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 109.22) (xy 132.08 109.22)
+			(xy 176.53 88.9) (xy 172.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1a544e-b2fe-400a-a66e-ce4d334f711a")
+	)
+	(wire
+		(pts
+			(xy 111.76 109.22) (xy 132.08 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5194,16 +4789,6 @@
 			(type default)
 		)
 		(uuid "dfab7f8f-cae2-4ed2-aa3e-c9605a8b7254")
-	)
-	(wire
-		(pts
-			(xy 260.35 135.89) (xy 262.89 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc4fdca-4420-42cc-ad46-9231c1b4d49a")
 	)
 	(wire
 		(pts
@@ -5247,13 +4832,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 129.54) (xy 260.35 130.81)
+			(xy 128.27 88.9) (xy 132.08 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eede8314-a2b3-4a15-b8e8-48847628be59")
+		(uuid "f3e572d6-c047-4b44-891b-5c8e73a8862e")
 	)
 	(wire
 		(pts
@@ -5356,7 +4941,7 @@
 		(uuid "5dc0fd8d-8bbb-43df-a136-75edcb09c6f9")
 	)
 	(label "SWDIO"
-		(at 185.42 109.22 0)
+		(at 182.88 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5366,7 +4951,7 @@
 		(uuid "6846f35d-a1a1-4518-979f-498782291ba2")
 	)
 	(label "SWCLK"
-		(at 185.42 111.76 0)
+		(at 182.88 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5385,8 +4970,18 @@
 		)
 		(uuid "898ef7e3-a4a8-4aeb-a314-09f8cd134ef8")
 	)
+	(label "OSC IN"
+		(at 128.27 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5fae139-d51e-4adb-a9f5-e8fd51987565")
+	)
 	(label "RGB_DATA"
-		(at 123.19 109.22 180)
+		(at 111.76 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5394,6 +4989,16 @@
 			(justify right bottom)
 		)
 		(uuid "beeeae6e-24e0-4129-9d2f-ff3ca3e8c32a")
+	)
+	(label "OSC OUT"
+		(at 128.27 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dfec14a3-1c7c-401b-8fe1-c151f1b07c41")
 	)
 	(label "RGB_DATA"
 		(at 68.58 132.08 0)
@@ -5405,9 +5010,20 @@
 		)
 		(uuid "ee02f759-801e-4e65-8979-c4e6a093ae0b")
 	)
+	(hierarchical_label "SPI1_SCK"
+		(shape input)
+		(at 176.53 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0187fa77-4c5b-4ba2-ac49-9cfdbaad4325")
+	)
 	(hierarchical_label "CAN_TX_2"
 		(shape input)
-		(at 181.61 152.4 0)
+		(at 177.8 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,9 +5032,42 @@
 		)
 		(uuid "08d69233-0191-4f7a-af94-16420800088b")
 	)
+	(hierarchical_label "SPI1_MISO"
+		(shape input)
+		(at 176.53 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e789504-7ea9-4dd5-aeb9-de3d6493c578")
+	)
+	(hierarchical_label "5Venable"
+		(shape input)
+		(at 177.8 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "131e0de4-7ff5-490a-9bde-6d08206cd4b4")
+	)
+	(hierarchical_label "LimitSwitchRoll"
+		(shape input)
+		(at 177.8 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1935c6f7-a068-4c7b-a4aa-fe22eb58bd20")
+	)
 	(hierarchical_label "CurrentADC"
 		(shape input)
-		(at 180.34 83.82 0)
+		(at 176.53 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5427,20 +5076,20 @@
 		)
 		(uuid "1e0d9404-6328-43dc-be9e-56f79491e3d9")
 	)
-	(hierarchical_label "CAN_RS"
+	(hierarchical_label "SPI2_SCK"
 		(shape input)
-		(at 172.72 88.9 0)
+		(at 177.8 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "2540ff6a-b121-407c-8828-ec21d9d78aa8")
+		(uuid "3bc2631c-5303-4b94-9249-33941a3222a8")
 	)
 	(hierarchical_label "CAN_RX_2"
 		(shape input)
-		(at 181.61 149.86 0)
+		(at 177.8 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5449,27 +5098,27 @@
 		)
 		(uuid "534c54c7-3df5-4e77-b92c-c248b51cd07e")
 	)
-	(hierarchical_label "Servo_Signal"
+	(hierarchical_label "IMU_Interrutpt"
 		(shape input)
-		(at 172.72 93.98 0)
+		(at 177.8 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "648b04c7-06c8-437d-b80b-9491b36e2724")
+		(uuid "592b7b73-a398-4693-9b90-d331842e2284")
 	)
-	(hierarchical_label "ENCODER_B"
+	(hierarchical_label "SPI1_MOSI"
 		(shape input)
-		(at 180.34 78.74 0)
+		(at 176.53 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7e9e9df8-24be-412d-b6fa-9f4ab08f750d")
+		(uuid "710ead71-1a7d-4a23-9c9f-d25751ac5fe6")
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
@@ -5482,9 +5131,42 @@
 		)
 		(uuid "872823ac-b802-4724-b6e9-f3a30b687790")
 	)
+	(hierarchical_label "SPI2_MOSI"
+		(shape input)
+		(at 123.19 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f9bec6e-6a58-4d64-b74f-4c6cdd52f6c2")
+	)
+	(hierarchical_label "SPI2_MISO"
+		(shape input)
+		(at 123.19 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92cde616-bcf1-4d61-9ff6-b459be2fb4db")
+	)
+	(hierarchical_label "CS_IMU"
+		(shape input)
+		(at 176.53 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95cbce63-012e-46c9-8b85-732e32387ef8")
+	)
 	(hierarchical_label "D-"
 		(shape input)
-		(at 176.53 104.14 0)
+		(at 177.8 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5493,20 +5175,31 @@
 		)
 		(uuid "96b785af-d460-451e-bd6a-18a1a080cc2b")
 	)
-	(hierarchical_label "ENCODER_A"
+	(hierarchical_label "I2C_SDA"
 		(shape input)
-		(at 180.34 76.2 0)
+		(at 177.8 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a2eae548-7414-4ce3-990a-2fca63778fc3")
+		(uuid "9f5e67cb-e3ca-42f5-8d3a-8bd22fd26a92")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 177.8 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac27d1a8-2cc6-4f82-a4cd-69bdb11fcec1")
 	)
 	(hierarchical_label "D+"
 		(shape input)
-		(at 176.53 106.68 0)
+		(at 177.8 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5514,6 +5207,39 @@
 			(justify left)
 		)
 		(uuid "bc563268-844a-4ba5-84cc-b1e969020e29")
+	)
+	(hierarchical_label "PWMServo_CAS"
+		(shape input)
+		(at 177.8 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d50b0b64-c713-429e-bfd1-2a8ca70abf69")
+	)
+	(hierarchical_label "PWMServo_Roll"
+		(shape input)
+		(at 177.8 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5ce3293-be7f-42db-afa4-9f5959072027")
+	)
+	(hierarchical_label "LimitSwitchCAS"
+		(shape input)
+		(at 177.8 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f16184b4-b938-462c-a8ab-395749712ba8")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5524,7 +5250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03fb9f2e-c60e-4e23-856c-5c4bc46ccab4")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR050"
 			(at 187.96 55.88 0)
 			(effects
 				(font
@@ -5580,7 +5306,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0133")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5596,7 +5322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09bff36b-70be-4fd8-afc2-1a8f5dbce235")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR043"
 			(at 146.05 170.18 0)
 			(effects
 				(font
@@ -5653,7 +5379,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0103")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5669,7 +5395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ea186d8-2582-4ab3-a901-210a1d436310")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR029"
 			(at 26.67 90.17 0)
 			(effects
 				(font
@@ -5720,7 +5446,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR044")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5735,7 +5461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b383e2f-2587-41e9-8dee-faa67f204c67")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR048"
 			(at 173.99 45.72 0)
 			(effects
 				(font
@@ -5791,7 +5517,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0129")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5807,7 +5533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b3b7279-7482-4b35-a45b-c05b1d4edc0a")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR039"
 			(at 121.92 54.61 0)
 			(effects
 				(font
@@ -5864,7 +5590,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0110")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5880,7 +5606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c0a8be1-ce89-4630-b5ca-bdb6d54a87f9")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 43.18 83.82 90)
 			(effects
 				(font
@@ -5959,25 +5685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 43.18 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 43.18 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C96346"
 			(at 43.18 90.17 90)
 			(effects
 				(font
@@ -5995,7 +5703,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6090,25 +5798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 43.18 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 43.18 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C49393646"
 			(at 43.18 53.34 0)
 			(effects
 				(font
@@ -6139,153 +5829,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 214.63 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "257f532f-1858-46a3-a14e-1775606328b0")
-		(property "Reference" "J4"
-			(at 215.265 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 215.265 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 214.63 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9788c3aa-a67a-4e38-9583-66eaabc784d7")
-		)
-		(pin "1"
-			(uuid "c2dc81f0-cd40-4bef-8ea2-1b2b5b8e348e")
-		)
-		(pin "2"
-			(uuid "7a028fb6-57dc-4331-ae74-30bacaaf6af6")
-		)
-		(instances
-			(project ""
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 267.97 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26d906e8-12dd-49bf-ac49-9e55ec97e1fd")
-		(property "Reference" "J2"
-			(at 269.24 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 269.24 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 267.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 267.97 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64eb98eb-48a2-465f-b6ee-f9b8f7277a6a")
-		)
-		(pin "3"
-			(uuid "54e88355-f3f8-4f93-a1eb-16f077027887")
-		)
-		(pin "4"
-			(uuid "165934a0-422b-4dfd-a400-26238e80ea98")
-		)
-		(pin "1"
-			(uuid "a9a999dc-ebb0-456b-aa5b-1a881f08edfb")
-		)
-		(instances
-			(project "CAN-Interface-Board"
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 34.29 109.22 270)
 		(unit 1)
@@ -6295,7 +5838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29a54e38-6bf9-4692-a5ea-d57b81b81efd")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR030"
 			(at 27.94 109.22 0)
 			(effects
 				(font
@@ -6346,7 +5889,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR045")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6362,7 +5905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e465ed-4a88-44e8-ac14-00520d041470")
-		(property "Reference" "C27"
+		(property "Reference" "C6"
 			(at 33.02 130.8099 0)
 			(effects
 				(font
@@ -6443,25 +5986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 29.21 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 29.21 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C49678"
 			(at 29.21 132.08 0)
 			(effects
 				(font
@@ -6479,7 +6004,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C27")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6495,7 +6020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a233eb6-5ec9-40b0-b085-293b3583499d")
-		(property "Reference" "PowerLED2"
+		(property "Reference" "PowerLED1"
 			(at 40.3225 102.87 0)
 			(effects
 				(font
@@ -6574,25 +6099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 41.91 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 41.91 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C965799"
 			(at 41.91 109.22 0)
 			(effects
 				(font
@@ -6610,7 +6117,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "PowerLED2")
+					(reference "PowerLED1")
 					(unit 1)
 				)
 			)
@@ -6626,7 +6133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c92bf9d-c5a5-4101-8c44-8f168a915b2e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR056"
 			(at 240.03 46.99 0)
 			(effects
 				(font
@@ -6676,7 +6183,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR08")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6692,7 +6199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e46b522-fe9e-4787-b1f4-8bf2bc3f5c98")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 132.08 38.0999 0)
 			(effects
 				(font
@@ -6737,6 +6244,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 128.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ca66f74-df98-4c51-b6c9-f96853181ba9")
 		)
@@ -6752,7 +6268,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6768,7 +6284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "329642e3-ed8c-40ea-9844-5839e02f90f1")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR042"
 			(at 143.51 22.86 0)
 			(effects
 				(font
@@ -6825,7 +6341,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0104")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6841,7 +6357,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "392f72ad-503c-416f-9a9d-5a7bf95ec4e4")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 52.07 102.87 90)
 			(effects
 				(font
@@ -6920,25 +6436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 52.07 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 52.07 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C95781"
 			(at 52.07 109.22 90)
 			(effects
 				(font
@@ -6956,7 +6454,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6972,7 +6470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cbf5838-a022-4902-bb84-87dea1acb28e")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR033"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -7023,7 +6521,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR048")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7039,7 +6537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ee25b75-0e4e-40fe-8650-e65f15f8bfec")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR034"
 			(at 107.95 170.18 0)
 			(effects
 				(font
@@ -7095,7 +6593,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0101")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7111,7 +6609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "453645c1-a2b0-4384-914e-870817d0c796")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 172.72 58.4199 0)
 			(effects
 				(font
@@ -7156,6 +6654,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C28323"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de332fa5-a301-4822-b949-d26512be95bb")
 		)
@@ -7171,7 +6678,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7266,25 +6773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 227.33 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 227.33 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C19723344"
 			(at 227.33 105.41 0)
 			(effects
 				(font
@@ -7324,7 +6813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a4a8a8f-3915-47ab-bf5a-760d55a70c1c")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 232.41 59.6899 0)
 			(effects
 				(font
@@ -7405,25 +6894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 242.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 242.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C585350"
 			(at 242.57 60.96 0)
 			(effects
 				(font
@@ -7465,7 +6936,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7481,7 +6952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ba762f2-1047-4bfd-bf87-cacd473c49b0")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 137.16 60.9599 0)
 			(effects
 				(font
@@ -7526,6 +6997,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53740913-1ca3-4e9a-8442-83a4f4e57d81")
 		)
@@ -7541,7 +7021,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7557,7 +7037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4de96bd6-e47c-4af7-9bc4-31495b78bc25")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR035"
 			(at 120.65 170.18 0)
 			(effects
 				(font
@@ -7613,7 +7093,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0102")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7628,7 +7108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f52204d-279a-434c-aa21-f991a9e11bd3")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR031"
 			(at 29.21 55.88 0)
 			(effects
 				(font
@@ -7679,7 +7159,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR046")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7694,7 +7174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "523d5daa-3053-4728-84d4-01d43e77a992")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR046"
 			(at 175.26 53.34 0)
 			(effects
 				(font
@@ -7751,7 +7231,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0132")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7767,7 +7247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "542e1da5-e504-4bf7-b619-992bec73f71d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR032"
 			(at 41.91 76.2 0)
 			(effects
 				(font
@@ -7818,7 +7298,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR047")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7834,7 +7314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5abe289d-9414-4478-99b7-4e9e13f5f358")
-		(property "Reference" "C1"
+		(property "Reference" "C19"
 			(at 218.44 111.76 0)
 			(effects
 				(font
@@ -7915,25 +7395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 220.98 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 220.98 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C170109"
 			(at 220.98 113.03 0)
 			(effects
 				(font
@@ -7951,7 +7413,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C1")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7967,7 +7429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63767c2c-b642-495f-acf4-30a8cb9e5e10")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 43.18 34.29 90)
 			(effects
 				(font
@@ -8046,25 +7508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 43.18 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 43.18 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C84376"
 			(at 43.18 40.64 90)
 			(effects
 				(font
@@ -8082,7 +7526,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8098,7 +7542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63d9441a-fac7-404f-9cac-68831c3aac32")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR053"
 			(at 227.33 93.98 0)
 			(effects
 				(font
@@ -8148,7 +7592,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR010")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8163,7 +7607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6440aa2f-db35-4918-abca-082d30794463")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR038"
 			(at 132.08 46.99 0)
 			(effects
 				(font
@@ -8219,7 +7663,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0128")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8234,7 +7678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68b6ecf3-56c3-4727-92e7-daffd96bb32b")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR036"
 			(at 127 35.56 0)
 			(effects
 				(font
@@ -8290,78 +7734,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 254 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c043809-9829-4ed7-b077-8448dbda8b54")
-		(property "Reference" "J5"
-			(at 254.635 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 254.635 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 254 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5b36725c-5817-4356-87f1-e87d7119b4ad")
-		)
-		(pin "1"
-			(uuid "c05fc5e2-26c1-4379-aeaf-e5351cb5f775")
-		)
-		(pin "2"
-			(uuid "a0e25c49-3bcf-4d5e-827a-b6ea81ad886d")
-		)
-		(instances
-			(project "CAN-Interface-Board"
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "J5")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8422,6 +7795,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C98192"
+			(at 140.97 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "94e13d53-aff0-4888-8651-7d7e640f6fc4")
 		)
@@ -8452,7 +7834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "734a81cb-039d-44e9-88cb-5423214990e1")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR047"
 			(at 173.99 35.56 0)
 			(effects
 				(font
@@ -8508,7 +7890,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0130")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8524,7 +7906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76fa4393-1145-4286-9762-2fe174f01a2e")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR041"
 			(at 124.46 66.04 0)
 			(effects
 				(font
@@ -8581,7 +7963,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0109")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8640,6 +8022,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C85840"
+			(at 148.59 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b433d685-6396-47e6-bce3-8cc995d94f13")
 		)
@@ -8671,7 +8062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "822dc0db-5971-429d-9a78-0dfe1fd9dade")
-		(property "Reference" "C28"
+		(property "Reference" "C7"
 			(at 59.69 45.7199 0)
 			(effects
 				(font
@@ -8752,25 +8143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 55.88 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 55.88 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C49678"
 			(at 55.88 46.99 0)
 			(effects
 				(font
@@ -8788,7 +8161,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C28")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8804,7 +8177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86794367-0fdb-4dae-9be4-330bbfb60cde")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR049"
 			(at 185.42 43.18 0)
 			(effects
 				(font
@@ -8861,7 +8234,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0131")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8877,7 +8250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "880cd203-4b6a-48ae-9695-93858b2ed415")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 172.72 48.2599 0)
 			(effects
 				(font
@@ -8922,6 +8295,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 168.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d109c586-de3b-4929-84e9-a69a6a0c1bd3")
 		)
@@ -8937,7 +8319,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8953,7 +8335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88bbb6cf-7dfc-48b1-8579-2f862efaae5f")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR045"
 			(at 168.91 30.48 0)
 			(effects
 				(font
@@ -9010,7 +8392,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0127")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9026,7 +8408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "920ebf75-4a98-49bc-a905-9a229741d5f9")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR037"
 			(at 116.84 43.18 0)
 			(effects
 				(font
@@ -9083,7 +8465,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0126")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9098,7 +8480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93b89247-f076-4859-821d-413cc17e3557")
-		(property "Reference" "C8"
+		(property "Reference" "C14"
 			(at 151.892 26.162 0)
 			(effects
 				(font
@@ -9141,6 +8523,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 156.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d3d7cf4-ff59-4e40-8e6a-1319b7b49545")
 		)
@@ -9156,7 +8547,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C8")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -9172,7 +8563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94e3724e-0246-44c7-a82e-eb182b5e33c3")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR052"
 			(at 220.98 123.19 0)
 			(effects
 				(font
@@ -9222,7 +8613,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR09")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9238,7 +8629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9580244d-3a32-4d0b-8870-8994bd02f5b8")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 111.76 152.3999 0)
 			(effects
 				(font
@@ -9283,6 +8674,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19110"
+			(at 107.95 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e3d5da2-cf96-4c9b-a3ff-74cd3f2fac95")
 		)
@@ -9298,7 +8698,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9314,7 +8714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a82f3750-3034-4a7e-bf80-969bbac0b345")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 137.16 49.5299 0)
 			(effects
 				(font
@@ -9359,6 +8759,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5a5a07e-4582-4a9d-ac51-5ef18c21b0a9")
 		)
@@ -9374,7 +8783,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9390,7 +8799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9d4bfae-4f59-48e2-9f27-5e75c4db7406")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR055"
 			(at 233.68 123.19 0)
 			(effects
 				(font
@@ -9440,7 +8849,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR040")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -9455,7 +8864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4159aac-6a23-45de-83b3-b105d7703ae1")
-		(property "Reference" "C25"
+		(property "Reference" "C20"
 			(at 236.22 111.76 0)
 			(effects
 				(font
@@ -9536,25 +8945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 233.68 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 233.68 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C170109"
 			(at 233.68 113.03 0)
 			(effects
 				(font
@@ -9572,7 +8963,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C25")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9587,7 +8978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b597133d-abb6-46eb-8395-668ccc4fbda0")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR040"
 			(at 134.62 58.42 0)
 			(effects
 				(font
@@ -9643,7 +9034,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0111")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9659,7 +9050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9ae943f-cf03-4a47-83d4-e8496e768070")
-		(property "Reference" "BootSwitch2"
+		(property "Reference" "BootSwitch1"
 			(at 43.18 68.58 0)
 			(effects
 				(font
@@ -9738,25 +9129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 43.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C49393646"
 			(at 43.18 78.74 0)
 			(effects
 				(font
@@ -9780,7 +9153,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "BootSwitch2")
+					(reference "BootSwitch1")
 					(unit 1)
 				)
 			)
@@ -9796,7 +9169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc7a49df-ee33-499e-a821-133a0239f1f2")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR051"
 			(at 198.12 63.5 0)
 			(effects
 				(font
@@ -9853,7 +9226,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0134")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9869,7 +9242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd92a999-c634-4ec9-9b33-2f25b1eb848d")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR028"
 			(at 35.56 40.64 0)
 			(effects
 				(font
@@ -9920,7 +9293,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR043")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9936,7 +9309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be69bf93-3b50-4a53-a683-e99baedfbecc")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 124.46 152.3999 0)
 			(effects
 				(font
@@ -9981,6 +9354,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19110"
+			(at 120.65 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01cfcbef-150e-45e3-9f33-d118fb3fe83f")
 		)
@@ -9996,7 +9378,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10012,7 +9394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf2f3344-b681-41e0-bd82-2fb0941721ca")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR054"
 			(at 227.33 116.84 0)
 			(effects
 				(font
@@ -10062,7 +9444,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR017")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -10078,7 +9460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bffe16ff-701d-4a1e-8e56-b14f6b5c4caa")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 187.96 58.4199 0)
 			(effects
 				(font
@@ -10123,6 +9505,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7f267a5-d736-4953-9933-aaaae528dcc3")
 		)
@@ -10138,7 +9529,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10153,7 +9544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0b0d4ef-9c0b-48c7-875c-e81d7dcd6923")
-		(property "Reference" "C7"
+		(property "Reference" "C13"
 			(at 137.414 26.67 0)
 			(effects
 				(font
@@ -10196,6 +9587,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C28323"
+			(at 142.24 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a5c676e-8fdf-4543-8560-4b66c15f5d66")
 		)
@@ -10211,7 +9611,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C7")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10227,7 +9627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6d6a6a2-83a0-48c1-86a3-e2f0c1760e8a")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 172.72 38.0999 0)
 			(effects
 				(font
@@ -10272,6 +9672,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 168.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9922ec3f-895b-434f-9398-35f6c59bb3c8")
 		)
@@ -10287,7 +9696,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10312,7 +9721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F405RGTx"
+		(property "Value" "STM32F405RGT6"
 			(at 157.0833 167.64 0)
 			(effects
 				(font
@@ -10341,6 +9750,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 1024KB flash, 192KB RAM, 168 MHz, 1.8-3.6V, 51 GPIO, LQFP64"
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15742"
 			(at 152.4 116.84 0)
 			(effects
 				(font
@@ -10558,73 +9976,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdad67b6-dc11-44ef-9d63-7a4c4cb21a3a")
-		(property "Reference" "#PWR014"
-			(at 254 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 256.54 129.5399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65179149-5d81-4cda-a17f-c98d37c7d74f")
-		)
-		(instances
-			(project "CAN-Interface-Board"
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 27.94 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10633,7 +9984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8d33b9f-61b8-4abf-a488-fa19db598218")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR026"
 			(at 21.59 124.46 0)
 			(effects
 				(font
@@ -10684,7 +10035,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR041")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10699,7 +10050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db4e0795-9188-4222-a322-8ab2b14753b0")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR027"
 			(at 31.75 139.7 0)
 			(effects
 				(font
@@ -10750,7 +10101,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR042")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10766,7 +10117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dce11845-bc79-4980-b2cd-3e660994c2d5")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR057"
 			(at 242.57 85.09 0)
 			(effects
 				(font
@@ -10816,74 +10167,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 260.35 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3745b21-34a5-4adb-8376-663ec98bdf19")
-		(property "Reference" "#PWR019"
-			(at 264.16 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 256.54 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 260.35 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2a510fd-c034-43b9-a8f7-8fdd620d2907")
-		)
-		(instances
-			(project "CAN-Interface-Board"
-				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR019")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -10899,7 +10183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f345bb-eecd-4a96-869e-4d0fc3ee7090")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR044"
 			(at 158.75 22.86 0)
 			(effects
 				(font
@@ -10956,7 +10240,7 @@
 			)
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "#PWR0125")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10972,7 +10256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3b4d351-2266-4a6f-b3c9-9cb77af88f09")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 58.42 126.6346 0)
 			(effects
 				(font
@@ -11053,25 +10337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 45.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 45.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C2827321"
 			(at 45.72 132.08 0)
 			(effects
 				(font
@@ -11095,7 +10361,7 @@
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/a5486d6a-0def-49b5-badb-76c17f208987"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
