@@ -798,6 +798,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "NEED TO FIX THE NETS FOR THE 5v so its not connected\n"
+		(exclude_from_sim no)
+		(at 99.314 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c36dbab-809f-4fbe-b4b5-5ff770e45146")
+	)
 	(junction
 		(at 128.27 81.28)
 		(diameter 0)
