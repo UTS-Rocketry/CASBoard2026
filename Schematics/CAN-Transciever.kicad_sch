@@ -1537,25 +1537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 190.5 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 190.5 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C17644051"
 			(at 190.5 86.36 0)
 			(effects
 				(font
@@ -1565,10 +1547,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0a40897-64ce-44b6-9ccc-373baba11b46")
+			(uuid "c15761fa-b514-4711-b6f4-a6acfbacce6c")
 		)
 		(pin "2"
-			(uuid "3df48d48-aa7b-41c3-8929-4088a3abb23d")
+			(uuid "fb971125-a4c8-4ca0-afb6-2639469ee6c3")
 		)
 		(instances
 			(project "CAN-Interface-Board"
@@ -1589,7 +1571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "338f07f8-68aa-4776-9ba3-8abc4cc4ec30")
-		(property "Reference" "R9"
+		(property "Reference" "R2"
 			(at 151.13 90.1699 0)
 			(effects
 				(font
@@ -1598,7 +1580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "120r"
 			(at 151.13 92.7099 0)
 			(effects
 				(font
@@ -1670,25 +1652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 148.59 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 148.59 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C269726"
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -1698,15 +1662,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3de5c26a-627b-4cff-bdc5-9c2fcb589510")
+			(uuid "e690f8d6-a8fb-42e7-83d3-ac1b568cf9ea")
 		)
 		(pin "2"
-			(uuid "c5b66255-b1c5-4091-9971-3f5f85d9d98c")
+			(uuid "4968e1b6-6f5c-42be-a00b-c4135a69be81")
 		)
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/5582202c-f32a-4245-a5f8-7aec56821a23"
-					(reference "R9")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1722,7 +1686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8819f108-a426-42a5-b85f-7330a00cc2ba")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR07"
 			(at 133.35 78.74 0)
 			(effects
 				(font
@@ -1767,12 +1731,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "62033b56-8192-4f18-a1aa-9dbd55a617d3")
+			(uuid "87e882cf-d6fa-4156-88df-8346b3383a1f")
 		)
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/5582202c-f32a-4245-a5f8-7aec56821a23"
-					(reference "#PWR038")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1788,7 +1752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ba86150-eef3-4c1b-a84e-8f9dee9e7cdc")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR06"
 			(at 114.3 95.25 0)
 			(effects
 				(font
@@ -1834,12 +1798,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "855676fb-2c97-4fb7-8682-754f0a86b139")
+			(uuid "5ff427db-cd0a-40f0-b63a-3d51e7928097")
 		)
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/5582202c-f32a-4245-a5f8-7aec56821a23"
-					(reference "#PWR037")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1854,7 +1818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fc961fa-738d-4fa4-9b8b-2d2ca6be68e4")
-		(property "Reference" "C24"
+		(property "Reference" "C3"
 			(at 97.79 90.1699 0)
 			(effects
 				(font
@@ -1935,25 +1899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 93.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 93.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C49678"
 			(at 93.98 91.44 0)
 			(effects
 				(font
@@ -1963,15 +1909,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1528db1b-7ca1-4fb5-9fb9-20ed26fcbc05")
+			(uuid "2e92d310-3924-4377-a44f-d71aa494d761")
 		)
 		(pin "2"
-			(uuid "bf75f68c-5b7c-4b1e-85d5-14c73673480f")
+			(uuid "9f2a67af-7dea-4244-b787-c3a254ad01b3")
 		)
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/5582202c-f32a-4245-a5f8-7aec56821a23"
-					(reference "C24")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1986,7 +1932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b539a6bb-4350-49ab-82c3-f9623f96c314")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 153.67 102.616 0)
 			(effects
 				(font
@@ -2056,43 +2002,16 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
-			(uuid "34c34040-bd13-4ea2-9e84-eb712d736a79")
+			(uuid "6a31cc22-765c-4617-9d8e-ed5d561f30ed")
 		)
 		(pin "2"
-			(uuid "dce9661b-bd0f-4cc3-b599-7553a5ef13fa")
+			(uuid "155007b3-a9ff-4ab7-95f3-01961bc88a7b")
 		)
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/5582202c-f32a-4245-a5f8-7aec56821a23"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -2189,25 +2108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 190.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 190.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C17644051"
 			(at 190.5 95.25 0)
 			(effects
 				(font
@@ -2217,10 +2118,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "63758ef3-3c3b-48ea-95cf-2938b65c48e7")
+			(uuid "49e0412f-0200-4f9c-9d95-993a2a7b772a")
 		)
 		(pin "2"
-			(uuid "577b8ad4-9709-4394-84b4-2eb7c838efba")
+			(uuid "ce5c7f26-78f1-4fbc-9b7e-6a8c24c4be74")
 		)
 		(instances
 			(project "CAN-Interface-Board"
@@ -2241,7 +2142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c518a45a-6843-48d9-a04f-5f85161dfab2")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR08"
 			(at 133.35 113.03 0)
 			(effects
 				(font
@@ -2286,12 +2187,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "98970ab3-753e-4689-b767-ffcc6687c556")
+			(uuid "e22cbd35-3e32-4b84-bf5a-1a57e1f841f8")
 		)
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/5582202c-f32a-4245-a5f8-7aec56821a23"
-					(reference "#PWR039")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2307,7 +2208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1daac5f-f40c-47e8-9cac-8cff26668e4f")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 135.4933 80.01 0)
 			(effects
 				(font
@@ -2388,25 +2289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
+		(property "LCSC" "C1543812"
 			(at 133.35 90.17 0)
 			(effects
 				(font
@@ -2416,33 +2299,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "e261ba03-e548-4d59-811f-6dceb96588f6")
+			(uuid "055cfb94-ef69-454c-9dde-26e525bfe9c2")
 		)
 		(pin "4"
-			(uuid "eff48f7d-ec47-4ce6-bea9-f50617e13897")
+			(uuid "b765751b-0533-4f7c-ae87-8dce2989857d")
 		)
 		(pin "7"
-			(uuid "26ed07c3-9cb6-4e3a-9bce-6ef394f7802c")
+			(uuid "3a50a965-fd97-47f5-8ea6-492420ec3c23")
 		)
 		(pin "8"
-			(uuid "79dd258e-ce99-4343-b2bf-8909ee00d814")
+			(uuid "9aa8126f-999b-46fc-a0ab-56bc15834661")
 		)
 		(pin "2"
-			(uuid "fd79f0bd-a13f-4ce0-b399-3112ea16683e")
+			(uuid "d998df9e-e8ce-4036-8433-c0af49e67ec3")
 		)
 		(pin "5"
-			(uuid "4678e3dc-97c6-45b1-a012-fece0ff6d1d2")
+			(uuid "ea25fcb6-190c-4379-87bc-c514aa92e7f5")
 		)
 		(pin "3"
-			(uuid "0d9880c9-cea4-4362-b542-5e6fabb8591c")
+			(uuid "e3e5a0ff-9d3d-4a64-93bf-21048e039c94")
 		)
 		(pin "6"
-			(uuid "da3c7368-0c7e-4ff5-a5de-d26f15499fe3")
+			(uuid "67df63dd-ff4f-425b-8004-151c254188bb")
 		)
 		(instances
 			(project "CAN-Interface-Board"
 				(path "/8a3e7f99-4046-40e8-bd7c-d9d1c8c7162e/5582202c-f32a-4245-a5f8-7aec56821a23"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
